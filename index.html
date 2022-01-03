@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- google material icons link  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-------------------------- main Navigation Bar --------------------- -->
+    <nav>
+        <div class="heading">
+            <h1 id="heading">Flipkart</h1>
+            <h2 id="secondHeading">Explore <span id="plus">Plus</span></h2>
+        </div>
+
+        <!-- search box  -->
+        <div class="searchBox">
+            <input type="text" id="search" placeholder="search for products, brands and more">
+            <span class="material-icons" id="searchIcon">
+                search
+            </span>
+        </div>
+
+        <!-- Login Button  -->
+        <button id="login">Login</button>
+
+        <!-- More Dropdown Menu  -->
+        <select name="more" id="more" style="color: white;">
+            <option value="more" id="labelMore" style="color: black;">More</option>
+            <option value="Notification preferences" style="color: black;">Notification preferences</option>
+            <option value="Sell on Flipkart" style="color: black;">Sell on Flipkart</option>
+            <option value="24*7 Customer Care" style="color: black;">24*7 Customer Care</option>
+            <option value="Advertise" style="color: black;">Advertise</option>
+            <option value="Download App" style="color: black;">Download App</option>
+        </select>
+
+        <!-- cart  -->
+        <span class="material-icons" id="cartIcon">
+            shopping_cart
+        </span>
+        <h1 id="cart">Cart</h1>
+    </nav>
+
+    <!--------------------------- Items Navigation Bar  ------------------------->
+    <!-- main items navigation bar  -->
+    <div class="itemsNavigationBar">
+        <!-- dropDown menu for Electronic items  -->
+        <select name="Electronics" id="electronics" class="itemsMenu">
+            <option value="">Electronics</option>
+            <option value="">Mobiles</option>
+            <option value="">Smart Watches</option>
+            <option value="">Ac</option>
+            <option value="">TV</option>
+            <option value="">Headphones</option>
+            <option value="">Mixer</option>
+            <option value="">Fan</option>
+            <option value="">Laptop</option>
+            <option value="">laptop Accessories</option>
+        </select>
+
+        <!-- Mens fashion items  -->
+        <select name="mens" id="mens" class="itemsMenu">
+            <option value="">Mens</option>
+            <option value="">Shirt</option>
+            <option value="">Formal Shirt</option>
+            <option value="">Casual Shirt</option>
+            <option value="">Belt</option>
+            <option value="">Kurta</option>
+            <option value="">T-Shirt</option>
+            <option value="">Pants</option>
+            <option value="">Suit</option>
+            <option value="">Fabrics</option>
+        </select>
+
+        <!-- Womens fashion items  -->
+        <select name="womens" id="womens" class="itemsMenu">
+            <option value="">Womens</option>
+            <option value="">Shirt</option>
+            <option value="">Formal Shirt</option>
+            <option value="">Casual Shirt</option>
+            <option value="">Sandales</option>
+            <option value="">Jeans</option>
+            <option value="">T-Shirt</option>
+            <option value="">Tops</option>
+            <option value="">Suit</option>
+            <option value="">Women Fabrics</option>
+        </select>
+
+        <!-- Baby and Kids  -->
+        <select name="baby" id="baby" class="itemsMenu">
+            <option value="">baby & Kids</option>
+            <option value="">Boys dresses</option>
+            <option value="">Girls Dresses</option>
+            <option value="">T-Shirts</option>
+            <option value="">Boys inner-wear</option>
+            <option value="">Girls inner-wear</option>
+            <option value="">Infant wears</option>
+            <option value="">Kids Slipper</option>
+            <option value="">Flip flops</option>
+            <option value="">Kids Shooes</option>
+        </select>
+
+        <!-- Home items  -->
+        <select name="home" id="home" class="itemsMenu">
+            <option value="">Home</option>
+            <option value="">Bed Lines</option>
+            <option value="">Bed Sheets</option>
+            <option value="">Blankets</option>
+            <option value="">Curtains</option>
+            <option value="">Pillow</option>
+            <option value="">Pillow Covers</option>
+            <option value="">Chair</option>
+            <option value="">Sofa Covers</option>
+            <option value="">Door-Mat</option>
+        </select>
+
+        <!-- Sports items -->
+        <select name="sports" id="sports" class="itemsMenu">
+            <option value="">Sports</option>
+            <option value="">Cricket Bat</option>
+            <option value="">Badmintan racket</option>
+            <option value="">Football</option>
+            <option value="">Cycling</option>
+            <option value="">Supports</option>
+            <option value="">Dumbels</option>
+            <option value="">Yoga Mat</option>
+            <option value="">Sport Shooes</option>
+            <option value="">Glubs</option>
+        </select>
+
+        <!-- Books  -->
+        <select name="books" id="books" class="itemsMenu">
+            <option value="">Academics</option>
+            <option value="">Test Preparation</option>
+            <option value="">Non Fiction</option>
+            <option value="">Literature</option>
+            <option value="">E-Learning</option>
+            <option value="">Young Leaders</option>
+            <option value="">Spiritual</option>
+            <option value="">indian Culture</option>
+            <option value="">Devotional</option>
+            <option value="">Language Books</option>
+        </select>
+    </div>
+
+    <!-- ------------------flipkart banner image------------------------------>
+    <div id="bannerImage">
+        <img src="https://i.gadgets360cdn.com/large/Moto_Razr_Banner_1584083158113.PNG">
+    </div>
+
+    <!--------------------------- Top Offers ------------------------ -->
+    <div class="topOffers">
+        <h1 id="topOfferHeading">Top Offers</h1>
+        <button id="view-all">View All</button>
+    </div>
+
+    <!-- Items  -->
+    <div class="item-container">
+        <div class="item">
+            <table>
+                <tr>
+                    <td><img src="https://www.thechennaimobiles.com/image/cache/catalog/iphone-13-mini-600x600.jpeg"
+                            alt="i phone image" class="iphone">
+                        <h1>Apple iPhone 11</h1>
+                        <p>Price : Rs-100000</p>
+                    </td>
+
+                    <td><img src="https://static.digit.in/default/ee594eee7b2d1fa81762babf601677144f6e6a84.jpeg?tr="
+                            alt="i phone image" class="iphone">
+                        <h1>redmi note 9 pro</h1>
+                        <p>Price : Rs-15000</p>
+                    </td>
+
+                    <td><img src="https://www.lifewire.com/thmb/s1WUa9_cpciSGMTmODj496mSjAk=/1500x1000/filters:fill(auto,1)/Samsung-UN32N5300AFXZA-1080p-LED-LCD-Smart-TV-5b421594c9e77c0054c1f861.jpg"
+                            alt="i phone image" class="iphone">
+                        <h1>Apple iPhone 11</h1>
+                        <p>Price : 100000</p>
+                    </td>
+
+                    <td><img src="https://rukminim1.flixcart.com/image/416/416/k6l2vm80/refrigerator-new/x/j/u/rf-eon-236b-25-hi-sc-dr-2-godrej-original-imafpyghefw6ydmm.jpeg?q=70"
+                            alt="i phone image" class="iphone">
+                        <h1>Apple iPhone 11</h1>
+                        <p>Price : 100000</p>
+                    </td>
+
+                    <td><img src="https://www.thechennaimobiles.com/image/cache/catalog/iphone-13-mini-600x600.jpeg"
+                            alt="i phone image" class="iphone">
+                        <h1>Apple iPhone 11</h1>
+                        <p>Price : 100000</p>
+                    </td>
+
+                    <td><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp14-spacegray-select-202110?wid=904&hei=840&fmt=jpeg&qlt=80&.v=1632788573000"
+                            alt="i phone image" class="iphone">
+                        <h1>Apple iPhone 11</h1>
+                        <p>Price : 100000</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+html{
+    font-size: 10px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* --------------------- -----Navbar-------------------------- */
+nav{
+    background-color: #3272c5f6;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+}
+
+#heading{
+    color: white;
+    font-size: 2rem;
+    margin-right: 2rem;
+    font-style: italic;
+    margin-right: 5rem;
+}
+
+#secondHeading{
+    color: white;
+    font-style: italic;
+}
+
+#plus{
+    color: yellow;
+}
+.searchBox{
+    width: 60rem;
+    height: 3.5rem;
+    border: 1px solid black;
+    background-color: white;
+    border: none;
+    margin-right: 15rem;
+}
+
+#search{
+    width: 90%;
+    height: 100%;
+    font-size: 1.6rem;
+    padding-left: 1.8rem;
+    float: left;
+    border: none;
+    outline: none;
+    /* background-color: red; */
+}
+
+#searchIcon{
+    color: #5f5fe9;
+    line-height: 3.5rem;
+    cursor: pointer;
+}
+
+#login{
+    background-color: white;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    color: #3977c9f6;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-right: 4rem;
+}
+
+#more{
+    background-color: transparent;
+    border: 1px solid #3272c5f6;
+    outline: none;
+    margin: 1rem;
+    font-size: 1.9rem;
+    width: 8rem;
+    cursor: pointer;
+}
+
+#cartIcon{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#cart{
+    color: #ffffff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+/*-----------------------------Items Navigation Bar------------------------*/
+.itemsNavigationBar{
+    padding: 1.5rem 5rem;
+}
+
+.itemsMenu{
+    border: 1px solid white;
+    outline: none;
+    font-size: 1.8rem;
+    width: 12rem;
+    margin-right: 5.5rem;
+}
+
+/*----------------------------------- banner Image--------------------  */
+#bannerImage{
+    height: 50vh;
+    /* width: 100vw; */
+    margin-top: 1rem;
+}
+
+#bannerImage img{
+    height: 100%;
+    width: 100%;
+    size:100% 100%;
+} 
+
+/*-------------------------------- Top Offers ------------------------ */
+.topOffers{
+    margin-top: 1.5rem;
+}
+
+#topOfferHeading{
+    float: left;
+    margin-left: 10rem;
+    font-size: 2.9rem;
+}
+
+#view-all{
+    float: right;
+    margin-right:10rem;
+    background-color: rgb(54, 82, 211);
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 12rem;
+}
+
+/*---------------------------------- Offer Items-------------------------------  */
+.item-container{
+    /* background-color: antiquewhite; */
+    height: 30vh;
+    margin-top: 8rem;
+}
+table{
+    text-align: center;
+}
+table tr td{
+    width: 30rem;
+}
+
+table tr td .iphone{
+    height: 15rem;
+}
+
+table tr td p{
+    font-size: 2rem;
+    text-align: center;
+}
